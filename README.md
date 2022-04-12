@@ -25,7 +25,7 @@ def get_content(chapter_name, chapter_url):
     pass
 
 if __name__ == "__main__":
-    target = "http://www.biqukan.com/0_910/"
+    target = "http://www.bilibili.com"
     get_urls(target)
 import requests
 from bs4 import BeautifulSoup as bs    
